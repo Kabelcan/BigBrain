@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" id="document">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="BlackPearl.ttf">
+
+
+
+
+<center>
+    <div id="Box">
+        <br>
+        <img src="anchor_png_37510.png" width="200" height="200">
+    <form class="container">
+<h1 id="header" style='font-size:30px;font-family: BlackPearl,serif'>Login</h1>
+
+
+
+        <input id="user" class="input" type="text" placeholder="Username">
+<br>
+        <input id="password" class="input" type="text" placeholder="Password">
+    </form>
+        <br>
+
+
+        <a><button class="button" onClick="check()"  value="Login" style="font-family: BlackPearl,serif">Submit</button> </a>
+        <a><button  class="button" onClick="signup()"  value="Login" style="font-family: BlackPearl,serif">Create</button> </a>
+    </div>
+    <br>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyALBV4qy4TENoetxOJOpba7vlCqmQZ_p-g",
+            authDomain: "game-dev-portfolio-ab141.firebaseapp.com",
+            databaseURL: "https://game-dev-portfolio-ab141.firebaseio.com",
+            projectId: "game-dev-portfolio-ab141",
+            storageBucket: "",
+            messagingSenderId: "531990321019",
+            appId: "1:531990321019:web:d9c041d63ed0f4a4"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+</script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <br>
+</body>
+<script src="main.js"></script>
+</html>
